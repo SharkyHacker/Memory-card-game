@@ -104,9 +104,14 @@ question2=Question("Что такое солёный огурец?", '135000', '
 question3=Question('Как называют жителей города Гусь-Хрустальный?', 'Гусевчане', 'Гусетяне', 'Гусятцы', 'Гусовцы')
 question4=Question('В какой АУ андертейла санс носит большую кисть за спиной?', 'Inktale', 'Underswap', 'Errortale', 'Underfresh')
 question5=Question('Как с испанского переводится Yo cocino una manzana?', 'Я готовлю яблоко', 'Я пью воду', 'Ты готовишь яблоко', 'Ты пьёшь воду')
+question6=Question('Как звали троих главных героев из Deltarune?', "Крис, Ральзей, Сьюзи", "Спамтон, Майк, Зак", "Молчун, тёмный принц, динозавр-вандал", "Санс, фриск, маффет")
+question7=Question("Монооксид дигидрогена что это?", 'Вода', 'Кислота', 'Вид пластика', 'Ядовитый газ')
+question8=Question('Самая опасная кислота', 'Гексафтороантимонат водорода', 'Серная кислота', 'Магическая кислота', 'Царская водка')
+question9=Question('Какой йолосвейнер приходит 20 декабря', 'Колбасовхат', 'Горшколиз', 'Свечной попрошайка', 'Дверехлоп')
+question10=Question('Кто проживает на дне океана?', 'Спанчбоб Скверпентс!', 'Селёдка Подшубкой!', 'Булка Счаем!', 'Крот Кубокрот!')
 button.clicked.connect(click_Alright)
 
-questionlist=[question1, question2, question3, question4, question5]
+questionlist=[question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
 main_win.curquestion=-1
 Next_question()
 main_win.show()
