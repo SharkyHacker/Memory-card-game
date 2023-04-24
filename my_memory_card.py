@@ -109,9 +109,10 @@ question7=Question("Монооксид дигидрогена что это?", '
 question8=Question('Самая опасная кислота', 'Гексафтороантимонат водорода', 'Серная кислота', 'Магическая кислота', 'Царская водка')
 question9=Question('Какой йолосвейнер приходит 20 декабря', 'Колбасовхат', 'Горшколиз', 'Свечной попрошайка', 'Дверехлоп')
 question10=Question('Кто проживает на дне океана?', 'Спанчбоб Скверпентс!', 'Селёдка Подшубкой!', 'Булка Счаем!', 'Крот Кубокрот!')
+question11=Question('Финальный босс в 16 концовке The binding of Isaac', 'Мега Сатана', 'Мама','Сатана', 'Айзек')
 button.clicked.connect(click_Alright)
 
-questionlist=[question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
+questionlist=[question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11]
 main_win.curquestion=-1
 Next_question()
 main_win.show()
